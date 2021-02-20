@@ -3,11 +3,11 @@ This is a walmart sales forecasting problem. This is one of my case study .In th
 
 Walmart problem introduction</br>
 1.I take this problem from kaggle .This is time series  problem . in this problem, we have provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and we have to predict  the sales for each department in each store.</br>
-2. This data is collected regarding the type of customers and their preference regarding purchasing or buying of products ,sales rate at weekdays or weekends. All the types of Sales data is taken as input and we need to predict output of sales.
-3. This data is of supervised learning problem.in this output of sales is dependent on different input features of sales like store number ,department number, is_holiday, year ,months etc.the best feature is  that weekend holidays, months, store number etc. which involve the time series also.
-4.As this problem is time series problem, At a particular day sales will be different from another day ,so the model will be use as time series model like arena model, facebook prophet model or we can also use xgboost ,regressor, LGBM model etc.
-5. This model will help in prediction of sales at particular day of year so that they can keep their products according to sales
-Dataset Introduction:
+2. This data is collected regarding the type of customers and their preference regarding purchasing or buying of products ,sales rate at weekdays or weekends. All the types of Sales data is taken as input and we need to predict output of sales.</br>
+3. This data is of supervised learning problem.in this output of sales is dependent on different input features of sales like store number ,department number, is_holiday, year ,months etc.the best feature is  that weekend holidays, months, store number etc. which involve the time series also.</br>
+4.As this problem is time series problem, At a particular day sales will be different from another day ,so the model will be use as time series model like arena model, facebook prophet model or we can also use xgboost ,regressor, LGBM model etc.</br>
+5. This model will help in prediction of sales at particular day of year so that they can keep their products according to sales.</br>
+Dataset Introduction:</br>
 In this problem we have given 3 csv file for training and one for testing.
 Training CSV file introduction:
 Stores.csv
